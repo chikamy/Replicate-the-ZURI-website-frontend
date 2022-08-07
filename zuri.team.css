@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    box-sizing: border-box;
+
+}
+
+header img {
+    width: 90px;
+    margin-bottom: 60px;
+}
+
+.aims {
+    font-size: 25px;
+    margin-top: 0;
+    /*make this longer*/
+
+}
+
+.landing {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(73, 71, 71);
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/hero-bg.svg);
+    background-size: cover;
+
+
+
+
+    padding-top: 50px;
+
+
+}
+
+
+article p {
+
+    text-align: center;
+    /*make this shorter*/
+    font-size: 13px;
+    margin-bottom: 80px;
+    font-stretch: expanded;
+
+
+
+}
+
+.links {
+    display: inline;
+
+
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 12px;
+    font-stretch: expanded;
+    font-weight: 500;
+
+
+}
+
+#training {
+    color: rgb(255, 254, 254);
+    background-color: rgb(241, 8, 8);
+    padding: 14px 28px;
+    margin-right: 9px;
+
+}
+
+#talent {
+    background-color: rgb(255, 254, 254);
+    color: rgb(241, 8, 8);
+    padding: 13px 27px;
+    border: 1px solid rgb(241, 8, 8);
+    margin-left: 9px;
+
+}
+
+#training:hover {
+    background-color: rgb(255, 254, 254);
+    color: rgb(230, 13, 13);
+    padding: 13px 27px;
+    border: 1px solid rgb(230, 13, 13);
+
+}
+
+#talent:hover {
+    color: rgb(255, 254, 254);
+    background-color: rgb(230, 13, 13);
+    padding: 13px 27px;
+
+}
+
+
+
+.imgleft {
+    width: 350px;
+    margin-right: 230px;
+}
+
+.imgright {
+    width: 350px;
+    margin-left: 230px;
+}
+
+.by-zuri-p {
+    color: rgb(209, 3, 3);
+    margin-top: 120px;
+    font-size: 11px;
+}
+
+.message {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    column-gap: 30px;
+    font-size: 12px;
+    position: absolute;
+    top: 157%;
+
+
+}
+
+.item {
+    background-color: rgb(255, 249, 253);
+    color: rgb(73, 71, 71);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    text-align: justify;
+    height: 400px;
+
+}
+
+#zuriintern p {
+    margin-bottom: 50px;
+}
+
+.item img {
+    width: 100px;
+    margin-bottom: 35px;
+}
+
+.item p {
+    margin: 0;
+    margin-bottom: 25px;
+    word-spacing: 0.5px;
+
+}
+
+.item a {
+    margin: 0;
+
+    text-decoration: none;
+    color: rgb(209, 3, 3);
+
+
+}
+
+.footercontainer {
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-bottom: 50PX;
+}
+
+#follow img {
+    width: 18px;
+
+}
+
+#follow a {
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+
+
+
+
+#zuri img {
+    width: 70px;
+
+
+}
+
+#link p {
+    font-size: 13px;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+#link a {
+    display: block;
+    text-decoration: none;
+    color: rgb(209, 3, 3);
+    font-size: 12px;
+    margin-top: 14px;
+}
+
+#contact {
+    margin: 0;
+    margin-top: 0px
+}
+
+#contact p {
+    font-size: 13px;
+
+}
+
+#contact a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(209, 3, 3);
+}
+
+#follow p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#follow {
+    margin-top: 0px;
+}
